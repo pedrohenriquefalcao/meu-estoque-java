@@ -27,7 +27,32 @@ public class SaborRepository {
         }
     }
 
+public List<Sabor> listarTodos() {
+        String sql = "SELECT * FROM sabor";
 
+        List<Sabor> sabores = new ArrayList<>();
+
+        try (Connection conn = ConexaoDatabase.conectar();
+             PreparedStatement stmt = conn.prepareStatement(sql);
+             ResultSet rs = stmt.executeQuery()) {
+
+            while (rs.next()) {
+                Sabor sabor = new Sabor();
+
+                sabor.setIdSabor(rs.getInt("id_sabor"));
+
+                sabor.setNomeSabor(rs.getString("nome_sabor"));
+
+                sabores.add(sabor);
+
+            }
+        } catch (SQLException e) {
+            System.err.println("Erro ao listar sabores!!");
+            e.printStackTrace();
+        }
+
+        return sabores;
+}
 
 
 
