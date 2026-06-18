@@ -61,13 +61,31 @@ public class SaborRepository {
             stmt.setInt(2, sabor.getIdSabor());
             stmt.executeUpdate();
 
-            System.out.println("Sabor ID '" +sabor.getIdSabor()+"' atualizado para '"+sabor.getNomeSabor());
+            System.out.println("Sabor ID '" + sabor.getIdSabor() + "' atualizado para '" + sabor.getNomeSabor());
 
         } catch (SQLException e) {
             System.err.println("Erro ao atualizar o sabor!");
             e.printStackTrace();
         }
-}
+    }
+
+    public void deletar(int id) {
+        String sql = "DELETE FROM sabor WHERE id_sabor = ?";
+
+        try (Connection conn = ConexaoDatabase.conectar();
+             PreparedStatement stmt = conn.prepareStatement()) {
+
+            stmt.setInt(1, id);
+            stmt.executeUpdate();
+            System.out.println("Sabor ID '" + id + "' deletado com sucesso!!");
+
+        } catch (SQLException e) {
+            System.err.println("Erro ao tentar excluir sabor!!");
+            e.printStackTrace();
+        }
+
+
+    }
 
 
 }
