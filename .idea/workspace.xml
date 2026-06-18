@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="feat: método DELETE SaborRepository.java">
-      <change beforePath="$PROJECT_DIR$/.idea/meu-estoque-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meu-estoque-java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="rodando superrrrrrrrrrrr">
+      <change afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/CatalogoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/LoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/ProdutoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/ConexaoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/ConexaoDatabase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781746380044</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="rodando superrrrrrrrrrrr">
+      <option name="closed" value="true" />
+      <created>1781748076232</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1781748076232</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -206,7 +214,8 @@
     <MESSAGE value="EU SLA" />
     <MESSAGE value="feat: método UPDATE SaborRepository.java" />
     <MESSAGE value="feat: método DELETE SaborRepository.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: método DELETE SaborRepository.java" />
+    <MESSAGE value="rodando superrrrrrrrrrrr" />
+    <option name="LAST_COMMIT_MESSAGE" value="rodando superrrrrrrrrrrr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
