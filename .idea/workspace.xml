@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="feat: SET do SaborRepository.java">
+      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/SaborRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/pedro/Documents/develop/meu-estoque-java" value="3F8y8YpjzmiK4Lv35kq113aL6L9" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pedrohenriquefalcao&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pedrohenriquefalcao/meu-estoque-java.git&quot;,
+    &quot;accountId&quot;: &quot;2e9a3320-8604-408e-83bd-e52939d7f37f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3F8y8YpjzmiK4Lv35kq113aL6L9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="" />
+      <created>1781470832251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781470832251</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: classe Sabor e Lote no pct model">
+      <option name="closed" value="true" />
+      <created>1781660181603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781660181603</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: classe Catalogo e Produto no pct model">
+      <option name="closed" value="true" />
+      <created>1781660550963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781660550963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: ConexaoDatabase.java e lib do postgreSQL&#10;a lib vai servir pra estabelecer a conexão">
+      <option name="closed" value="true" />
+      <created>1781661338800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781661338800</updated>
+    </task>
+    <task id="LOCAL-00004" summary="salvar aqui">
+      <option name="closed" value="true" />
+      <created>1781661818898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781661818898</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: puxando dados BD da env">
+      <option name="closed" value="true" />
+      <created>1781663977537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781663977538</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: conexão com o BD pronta e online&#10;agora falta fazer o resto kkkkk até amanhã">
+      <option name="closed" value="true" />
+      <created>1781664730021</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1781664730021</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: SET do SaborRepository.java">
+      <option name="closed" value="true" />
+      <created>1781745383529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1781745383529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: classe Sabor e Lote no pct model" />
+    <MESSAGE value="feat: classe Catalogo e Produto no pct model" />
+    <MESSAGE value="feat: ConexaoDatabase.java e lib do postgreSQL&#10;a lib vai servir pra estabelecer a conexão" />
+    <MESSAGE value="salvar aqui" />
+    <MESSAGE value="fix: puxando dados BD da env" />
+    <MESSAGE value="feat: conexão com o BD pronta e online&#10;agora falta fazer o resto kkkkk até amanhã" />
+    <MESSAGE value="feat: SET do SaborRepository.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: SET do SaborRepository.java" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
