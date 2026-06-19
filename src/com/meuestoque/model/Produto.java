@@ -4,21 +4,22 @@ import java.math.BigDecimal;
 
 public class Produto {
     private int idProduto;
-    private Catalogo idCatalogo;
-    private Sabor idSabor;
-    private Lote idLote;
+    private Catalogo catalogo;
+    private Sabor sabor;
+    private Lote lote;
     private BigDecimal precoVenda;
 
     public Produto() {
     }
 
-    public Produto(int idProduto, Catalogo idCatalogo, Sabor idSabor, Lote idLote, BigDecimal precoVenda) {
+    public Produto(int idProduto, Catalogo catalogo, Sabor sabor, Lote lote, BigDecimal precoVenda) {
         this.idProduto = idProduto;
-        this.idCatalogo = idCatalogo;
-        this.idSabor = idSabor;
-        this.idLote = idLote;
+        this.catalogo = catalogo;
+        this.sabor = sabor;
+        this.lote = lote;
         this.precoVenda = precoVenda;
     }
+
 
     public int getIdProduto() {
         return idProduto;
@@ -28,28 +29,28 @@ public class Produto {
         this.idProduto = idProduto;
     }
 
-    public Catalogo getIdCatalogo() {
-        return idCatalogo;
+    public Catalogo getCatalogo() {
+        return catalogo;
     }
 
-    public void setIdCatalogo(Catalogo idCatalogo) {
-        this.idCatalogo = idCatalogo;
+    public void setCatalogo(Catalogo catalogo) {
+        this.catalogo = catalogo;
     }
 
-    public Sabor getIdSabor() {
-        return idSabor;
+    public Sabor getSabor() {
+        return sabor;
     }
 
-    public void setIdSabor(Sabor idSabor) {
-        this.idSabor = idSabor;
+    public void setSabor(Sabor sabor) {
+        this.sabor = sabor;
     }
 
-    public Lote getIdLote() {
-        return idLote;
+    public Lote getLote() {
+        return lote;
     }
 
-    public void setIdLote(Lote idLote) {
-        this.idLote = idLote;
+    public void setLote(Lote lote) {
+        this.lote = lote;
     }
 
     public BigDecimal getPrecoVenda() {
@@ -60,4 +61,3 @@ public class Produto {
         this.precoVenda = precoVenda;
     }
 }
-

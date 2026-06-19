@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="feat: método INSERT CatalogoRepository.java">
+    <list default="true" id="42f69a58-ed26-487a-a8fc-5cebb348acb7" name="Changes" comment="fix: valores do model Produto&#10;métodos get set atualizados e agora objetos são passados, além de mudar de double para bigD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/model/Lote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/model/Lote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/CatalogoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/CatalogoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/ConexaoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/ConexaoDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/LoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/LoteRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/meuestoque/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/meuestoque/repository/ProdutoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +219,47 @@
       <option name="project" value="LOCAL" />
       <updated>1781749629094</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="FIX">
+      <option name="closed" value="true" />
+      <created>1781832300746</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1781832300746</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FIX">
+      <option name="closed" value="true" />
+      <created>1781832319994</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1781832319994</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: REPO &gt; lote e produto">
+      <option name="closed" value="true" />
+      <created>1781832340671</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1781832340671</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix">
+      <option name="closed" value="true" />
+      <created>1781832345855</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1781832345855</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: valores do model Produto&#10;métodos get set atualizados e agora objetos são passados, além de mudar de double para bigD">
+      <option name="closed" value="true" />
+      <created>1781832414707</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1781832414707</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -243,7 +281,11 @@
     <MESSAGE value="fix: convertendo de double para BigDecimal" />
     <MESSAGE value="feat: classes repository faltantes" />
     <MESSAGE value="feat: método INSERT CatalogoRepository.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: método INSERT CatalogoRepository.java" />
+    <MESSAGE value="FIX" />
+    <MESSAGE value="feat: REPO &gt; lote e produto" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix: valores do model Produto&#10;métodos get set atualizados e agora objetos são passados, além de mudar de double para bigD" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: valores do model Produto&#10;métodos get set atualizados e agora objetos são passados, além de mudar de double para bigD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

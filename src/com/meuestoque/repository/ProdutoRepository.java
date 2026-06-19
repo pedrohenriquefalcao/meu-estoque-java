@@ -1,6 +1,7 @@
 package com.meuestoque.repository;
 
 import com.meuestoque.model.Produto;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -16,7 +17,6 @@ public class ProdutoRepository {
             stmt.setInt(1, produto.getCatalogo().getIdCatalogo());
             stmt.setInt(2, produto.getSabor().getIdSabor());
             stmt.setInt(3, produto.getLote().getIdLote());
-
             stmt.setBigDecimal(4, produto.getPrecoVenda());
 
             stmt.executeUpdate();
