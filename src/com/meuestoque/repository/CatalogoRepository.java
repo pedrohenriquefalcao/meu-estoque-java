@@ -13,7 +13,6 @@ public class CatalogoRepository {
         try (Connection conn = ConexaoDatabase.conectar();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
 
-            // 🌟 CORREÇÃO 2: Preenchemos cada lacuna na ordem exata da query
             stmt.setString(1, catalogo.getNomeProduto());
             stmt.setString(2, catalogo.getDescricao());
             stmt.setBigDecimal(3, catalogo.getPrecoBase());
