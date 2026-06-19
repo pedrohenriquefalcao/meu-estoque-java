@@ -1,14 +1,16 @@
 package com.meuestoque.model;
 
+import java.time.LocalDate;
+
 public class Lote {
     private int idLote;
-    private int dataFeito;
-    private int dataPrazo;
+    private LocalDate dataFeito;
+    private LocalDate dataPrazo;
 
     public Lote() {
     }
 
-    public Lote(int idLote, int dataFeito, int dataPrazo) {
+    public Lote(int idLote, LocalDate dataFeito, LocalDate dataPrazo) {
         this.idLote = idLote;
         this.dataFeito = dataFeito;
         this.dataPrazo = dataPrazo;
@@ -22,19 +24,19 @@ public class Lote {
         this.idLote = idLote;
     }
 
-    public int getDataFeito() {
+    public LocalDate getDataFeito() {
         return dataFeito;
     }
 
-    public void setDataFeito(int dataFeito) {
+    public void setDataFeito(LocalDate dataFeito) {
         this.dataFeito = dataFeito;
     }
 
-    public int getDataPrazo() {
+    public LocalDate getDataPrazo() {
         return dataPrazo;
     }
 
-    public void setDataPrazo(int dataPrazo) {
+    public void setDataPrazo(LocalDate dataPrazo) {
         this.dataPrazo = dataPrazo;
     }
 
